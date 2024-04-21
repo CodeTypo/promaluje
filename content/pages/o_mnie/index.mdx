@@ -1,15 +1,21 @@
 ---
 title: "O mnie"
 slug: "/o_mnie"
-color: "black"
+color: "white"
 custom: true
 cover: "./art-cover-image.jpg"
 ---
 
-<div style={{ margin: `0 auto`, maxWidth: `70ch`, padding: `2rem` }}>
+import AboutPage from '/src/components/AboutPage';
 
-<h1 data-testid="page-title">O mnie</h1>
-
-![Moje zdjęcie profilowe](https://promaluje.pl/wp-content/uploads/2022/10/55214272-6164-4508-863A-904CC06E2221-802x1024.png)
-
+<AboutPage 
+  imagePath="/images/omnie.JPG" 
+> 
+<div style={{ textAlign: 'center' }}>
+    <h1>Cześć, miło mi cię poznać!</h1>
 </div>
+<p>Nazywam się Natalia Procajło, jestem wizażystką i stylistką brwi ze świeżym poglądem na branżę beauty i panujące w niej trendy. Ukończyłam renomowaną szkołę wizażu “Pro Academy School Of Makeup” we Wrocławiu, z której, poza dyplomem z celującą oceną, wyniosłam ogrom wiedzy i pasji do wykonywania zawodu wizażystki.</p>
+<p>Godziny spędzone w studio z moimi klientkami pozwoliły mi na wypracowanie własnego stylu, w którym skupiam się przede wszystkim na podkreśleniu naturalnej urody, które jednocześnie akcentuje unikalny charakter i piękno każdej z moich modelek.</p>
+<p>W pracy jestem kreatywna, uśmiechnięta i otwarta na propozycje moich klientek, wszystko po to, abyś opuszczała moje studio usatysfakcjonowana w stu procentach!</p>
+
+</AboutPage>
