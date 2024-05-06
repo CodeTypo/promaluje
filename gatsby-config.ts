@@ -11,7 +11,7 @@ const config: GatsbyConfig = {
     siteTitle: `Promaluje`,
     siteTitleAlt: `Natalia Procajło - Professional makeup artist`,
     siteHeadline: `Natalia Procajło - PMUA`,
-    siteUrl: `https://promaluje.pl`,
+    siteUrl: `http://localhost:8000`,
     siteDescription: `Odkryj Magię Makijażu z Natalią Procajło: Perfekcyjne Makijaże Ślubne i Okolicznościowe. Zobacz Portfolio i Ofertę Profesjonalnej Makijażystki!`,
     siteImage: `/banner.jpg`,
     siteLanguage: `pl`,
